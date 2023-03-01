@@ -65,7 +65,6 @@ vnets = {
       pep = {
         name                                           = "pep"
         cidr                                           = ["10.1.0.0/28"]
-        # service_endpoints                              = ["Microsoft.Cache/Redis"]
         enforce_private_link_endpoint_network_policies = "true"
       }
     }
